@@ -1,3 +1,7 @@
+let i = 0;
+let txt = 'Full-Stack Developer / Network Enthusiast';
+let speed = 80;
+
 (function($) {
 
     setTimeout(function () {
@@ -183,9 +187,7 @@
             "retina_detect": true
         });
         /* Particle JS */
-
-    }, 2500);
-
+    }, 2000);
 
     "use strict"; // Start of use strict
 
@@ -250,10 +252,6 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
-
-let i = 0;
-let txt = 'Full-Stack Developer / Network Enthusiast';
-let speed = 80;
 
 function typeWriter() {
     if (i < txt.length) {
