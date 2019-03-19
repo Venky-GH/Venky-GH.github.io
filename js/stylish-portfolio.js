@@ -4,7 +4,6 @@ let speed = 80;
 
 (function($) {
 
-    setTimeout(function () {
         if($("#rest_body").hasClass("hidden")) {
             $("#rest_body").removeClass("hidden");
         }
@@ -187,7 +186,6 @@ let speed = 80;
             "retina_detect": true
         });
         /* Particle JS */
-    }, 2000);
 
     "use strict"; // Start of use strict
 
