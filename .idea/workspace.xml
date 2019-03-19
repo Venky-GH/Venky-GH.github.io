@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/stylish-portfolio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="189" column="10" selection-start-line="189" selection-start-column="10" selection-end-line="189" selection-end-column="10" />
+            <state relative-caret-position="391">
+              <caret line="198" column="38" lean-forward="true" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
               <folding>
                 <element signature="e#175#229#0" />
                 <element signature="e#272#320#0" />
@@ -71,6 +71,9 @@
       <find>portfolio-item:</find>
       <find>bg-light</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,16 +168,15 @@
       <workItem from="1552886729954" duration="604000" />
       <workItem from="1552917539273" duration="14360000" />
       <workItem from="1552937922661" duration="2029000" />
-      <workItem from="1553008664839" duration="2405000" />
+      <workItem from="1553008664839" duration="2645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51798000" />
+    <option name="totallyTimeSpent" value="52038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -247,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/stylish-portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="189" column="10" selection-start-line="189" selection-start-column="10" selection-end-line="189" selection-end-column="10" />
+        <state relative-caret-position="391">
+          <caret line="198" column="38" lean-forward="true" selection-start-line="198" selection-start-column="38" selection-end-line="198" selection-end-column="38" />
           <folding>
             <element signature="e#175#229#0" />
             <element signature="e#272#320#0" />
