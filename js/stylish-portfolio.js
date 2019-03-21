@@ -4,6 +4,17 @@ let speed = 80;
 
 (function($) {
 
+    /* mobile timeline */
+    let $timeline_block = $('.cd-timeline-block');
+
+    //hide timeline blocks which are outside the viewport
+    $timeline_block.each(function(){
+        if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+            $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+        }
+    });
+    /* mobile timeline */
+
     if($("#rest_body").hasClass("hidden")) {
         $("#rest_body").removeClass("hidden");
     }
