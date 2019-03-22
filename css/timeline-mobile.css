@@ -57,12 +57,12 @@ Main components
 
 .cd-timeline-img {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 40px;
-    height: 40px;
+    top: 0.8rem;
+    left: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px rgba(0,0,0,0.5), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px #cac4c4, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline-img img {
