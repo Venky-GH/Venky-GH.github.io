@@ -262,6 +262,21 @@ var onMapClickHandler = function(event) {
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
 
+$("#showMore").click(function () {
+    let content = $("#showMoreContent");
+    let button = $("#showMore");
+    if(content.hasClass("active")) {
+        content.removeClass("active");
+        setTimeout(function () {
+            button.html('Show More &nbsp;&nbsp; <i class="fas fa-angle-down"></i>');
+        }, 700);
+    }
+    else {
+        content.addClass("active");
+        button.html('Hide &nbsp;&nbsp; <i class="fas fa-angle-up"></i>');
+    }
+});
+
 function typeWriter() {
     if (i < txt.length) {
         document.getElementById("typeWriter").innerHTML += txt.charAt(i);

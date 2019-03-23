@@ -650,3 +650,24 @@ footer.footer .social-link:hover {
 .timeline-nav__item {
     font-size: 1rem;
 }
+
+#showMore {
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.8);
+}
+
+#showMore i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#showMoreContent {
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.7s cubic-bezier(0.47, 0, 0.75, 0.72);
+}
+
+#showMoreContent.active {
+    max-height: 50rem;
+    transition: max-height 0.7s cubic-bezier(0.47, 0, 0.75, 0.72);
+}
