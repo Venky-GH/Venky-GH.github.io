@@ -1,5 +1,5 @@
 let i = 0;
-let txt = 'Full-Stack Developer / Network Enthusiast';
+let txt = 'Software Developer / Network Enthusiast';
 let speed = 80;
 
 (function($) {
