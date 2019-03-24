@@ -273,7 +273,9 @@ $("#showMore").click(function () {
     }
     else {
         content.addClass("active");
-        button.html('Hide &nbsp;&nbsp; <i class="fas fa-angle-up"></i>');
+        setTimeout(function () {
+            button.html('Hide &nbsp;&nbsp; <i class="fas fa-angle-up"></i>');
+        }, 700);
     }
 });
 
